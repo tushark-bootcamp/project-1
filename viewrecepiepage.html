@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search Results</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="viewrecipe.css">
+  </head>
+  
+  <body>
+    <div class="hero-img">
+      <h1 id="recipetitle">placeholder</h1>
+      <button type="button" class="btn btn-secondary" id="Home">
+      <a class="buttonlink" href="index.html">Home</a>
+      </button>
+    </div>  
+    <div id="reciperesponse">
+      <img src="#" alt="Recipe Image" id="RecipeImage">
+      <div id="recipeSummary">
+
+      </div>
+      <form id="checktags"  class="clearfix">
+        <input type="checkbox" id="vegetarian" name="vegetarian" readonly>
+          <label for="vegetarian">Vegetarian</label><br>
+        <input type="checkbox" id="vegan" name="vegan" readonly>
+          <label for="vegan">Vegan</label><br>
+        <input type="checkbox" id="gluten3" name="gluten3" readonly>
+          <label for="gluten3">Gluten Free</label><br>
+        <input type="checkbox" id="dairy3" name="dairy3" readonly>
+          <label for="dairy3">Dairy Free</label><br>
+      </form>
+      <ul id="ingredients" aria-label="Ingredients:">
+
+      </ul>
+      <ol id="instructions" aria-label="Instructions:">
+
+      </ol>
+    </div>
+
+    <button>
+      <a href= "index.html">Home</a>
+    </button>
+
+    <script src="viewrecipe.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  </body>
+</html>
